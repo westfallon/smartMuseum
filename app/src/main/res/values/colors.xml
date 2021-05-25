@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#8D92A3</color>
+
+    <!--StartPage-->
+    <color name="startpage_one_order_tv">#FFFFFF</color>
+    <color name="startpage_one_recommend_tv">#FFFFFF</color>
+    <color name="startpage_one_details_tv">#FFFFFF</color>
+    <color name="startpage_one_index_tv">#2A2A2A</color>
+    <color name="startpage_two_order_tv">#FFFFFF</color>
+    <color name="startpage_two_recommend_tv">#FFFFFF</color>
+    <color name="startpage_two_details_tv">#FFFFFF</color>
+    <color name="startpage_two_index_tv">#2A2A2A</color>
+    <color name="startpage_three_order_tv">#210000</color>
+    <color name="startpage_three_recommend_tv">#210000</color>
+    <color name="startpage_three_details_tv">#000521</color>
+    <color name="startpage_three_index_tv">#FFFFFF</color>
+
+    <!--Login-->
+    <color name="login_to_register_tv">#FFFFFF</color>
+    <color name="login_welcome_tv">#FFFFFF</color>
+    <color name="login_lable_tv">#000000</color>
+    <color name="login_account_telephone_et">#8D92A3</color>
+    <color name="login_password_et">#8D92A3</color>
+    <color name="login_to_forgetpwd_tv">#8D92A3</color>
+    <color name="login_btn">#FFFFFF</color>
+
+    <!--Register-->
+    <color name="register_to_login_tv">#FFFFFF</color>
+    <color name="register_welcome_tv">#FFFFFF</color>
+    <color name="register_lable_tv">#000000</color>
+    <color name="register_account_telephone_et">#8D92A3</color>
+    <color name="register_password_et">#8D92A3</color>
+    <color name="register_btn">#FFFFFF</color>
+    <color name="register_next_step_tv">#842D29</color>
+    <color name="register_hint_tv">#000000</color>
+    <color name="register_step_count_tv">#8D92A3</color>
+    <color name="register_personal_info_tv">#000000</color>
+    <color name="register_nickname_with_name_with_gender_tv">#8D92A3</color>
+    <color name="register_nickname_with_name_et">#000521</color>
+    <color name="register_selected_gender_hint_tv">#842D29</color>
+    <color name="register_position_permissions_tv">#000000</color>
+    <color name="register_choose_permissions_tv">#8D92A3</color>
+    <color name="register_permission_checkbox">#210000</color>
+    <color name="register_input_telephone_tv">#97999F</color>
+    <color name="register_telephone_tv">#8D92A3</color>
+    <color name="register_area_code_tv">#000521</color>
+    <color name="register_telephone_et">#000521</color>
+    <color name="register_assure_telephone_hint_tv">#8D92A3 </color>
+    <color name="register_verify_code_et">#000000 </color>
+    <color name="reigster_assure_telephone_chronometer_tv">#FA7268</color>
+    <color name="register_assure_telephone_time_hint_tv">#8D92A3</color>
+    <color name="register_assure_telephone_send_tv">#842D29</color>
+
+    <!--ForgetPwd-->
+    <color name="forgetpwd_lable_tv">#000000</color>
+    <color name="forgetpwd_password_tv">#8D92A3</color>
+    <color name="forgetpwd_password_et">#320000</color>
+    <color name="forgetpwd_change_pwd_btn">#FFFFFF</color>
+
+    <!-- MainPage !-->
+    <color name="mainpage_navigation_background">#FFFFFF</color>
+    <color name="mainpage_navigation_selectoritem_primary_color_selected">#842D29</color>
+    <color name="mainpage_navigation_selectoritem_primary_color_unselected">#000000</color>
+
+    <!--Exhibition-->
+    <color name="mainpage_explore_exhibition_switch_checked">#842D29</color>
+    <color name="mainpage_explore_exhibition_switch_unchecked">#08080040</color>
+
+    <!-- Navigation !-->
+    <color name="mainpage_navigation_selectoritem_wordcolor_black">#000521</color>
+    <color name="mainpage_navigation_red">#701F1F</color>
+    <color name="mainpage_navigation_white">#FFFFFF</color>
+    <color name="mainpage_navigation_wordcolor_gray">#8D92A3</color>
+
+    <!--Navigation_search-->
+    <color name="navigation_search_background_gray">#F7F8FA</color>
+    <color name="navigation_search_red">#842D29</color>
+    <color name="navigation_search_white">#FFFFFF</color>
+    <color name="navigation_search_black">#000521</color>
+    <color name="navigation_search_item_gray">#8D92A3</color>
+
+    <!--Navigation_go_routes-->
+    <color name="navigation_routes_black">#000521</color>
+    <color name="navigation_routes_red">#842D29</color>
+    <color name="navigation_routes_white">#FFFFFF</color>
+
+    <!--Navigation help confirm-->
+    <color name="confirm_help_background">#FFFFFF</color>
+    <color name="confirm_help_red">#842D29</color>
+    <color name="confirm_help_white">#FFFFFF</color>
+    <color name="confirm_help_black_word">#1A1A1A</color>
+
+    <!--Navigation in helping-->
+    <color name="in_helping_red">#842D29</color>
+    <color name="in_helping_white">#FFFFFF</color>
+    <color name="in_helping_black">#000000</color>
+
+    <!--exhibits details-->
+    <color name="exhibits_details_black">#000000</color>
+    <color name="exhibits_details_white">#FFFFFF</color>
+    <color name="exhibits_details_black_word">#000521</color>
+    <color name="exhibits_details_gray">#E2E3E4</color>
+
+    <!-- Goods !-->
+    <color name="mainpage_goods_sell_background">#FFFFFF</color>
+    <color name="mainpage_goods_sell_commend_black">#000521</color>
+    <color name="mainpage_goods_sell_commend_brown">#842D29</color>
+    <color name="mainpage_goods_sell_commend_gray">#8D92A3</color>
+    <color name="mainpage_goods_text_white">#FFFFFF</color>
+    <color name="mainpage_goods_purchased_gray">#6D7278</color>
+    <color name="mainpage_goods_purchased_card_background_border">#E1E5F1</color>
+
+    <color name="goods_market_search_background_gray">#F5F6F9</color>
+    <color name="goods_market_text_black">#000000</color>
+    <color name="goods_market_text_gray">#9C9EAF</color>
+    <color name="goods_market_text_brown">#842D29</color>
+
+    <color name="goods_market_classical_background_1">#FEB713</color>
+    <color name="goods_market_classical_background_2">#842D29</color>
+    <color name="goods_market_classical_background_3">#FA7268</color>
+
+    <color name="goods_info_card_background">#FFFFFF</color>
+
+    <color name="goods_info_sigin_card_background">#FCFCFC</color>
+
+    <color name="goods_info_detail_text_background">#F4F4F6</color>
+    <color name="goods_info_detail_name_text_color">#210000</color>
+    <color name="goods_info_detail_introduction_color">#A38D8D</color>
+
+    <color name="goods_info_detail_button_clickable">#842D29</color>
+    <color name="goods_info_detail_button_clickable_text">#FFFFFF</color>
+    <color name="goods_info_detail_button_unclickable">#FFFFFF</color>
+    <color name="goods_info_detail_button_unclickable_text">#000521</color>
+    <color name="goods_info_detail_item_title_text">#842D29</color>
+    <color name="goods_info_detail_item_introduction_text">#000000</color>
+
+    <color name="goods_order_check_change_order_color">#8D92A3</color>
+    <color name="goods_order_check_order_color">#000000</color>
+    <color name="goods_order_check_card_background">#842D29</color>
+    <color name="goods_order_check_price_text">#FFFFFF</color>
+
+    <color name="goods_choose_address_item_localaddress_color">#210000</color>
+    <color name="goods_choose_address_item_default_color">#842D29</color>
+
+    <color name="goods_pay_type_alipay_card_background_color">#E2E5FD</color>
+    <color name="goods_pay_type_wechatpay_card_background_color">#DAF6E4</color>
+    <color name="goods_pay_type_moneypay_card_background_color">#FEF3D8</color>
+    <color name="goods_pay_type_creditcardpay_card_background_color">#FEEAE8</color>
+    <color name="goods_pay_type_card_text_color">#000521</color>
+    
+    <color name="dialog_goods_info_pay_success_card_background_1">#842D29</color>
+    <color name="dialog_goods_info_pay_success_card_background_2">#C29795</color>
+    <color name="dialog_goods_info_pay_success_card_background_3">#FFFFFF</color>
+    <color name="dialog_goods_info_pay_success_success_text">#210000</color>
+    <color name="dialog_goods_info_pay_success_tips_text">#8D92A3</color>
+
+    <color name="goods_order_delivery_name_text">#000521</color>
+    <color name="goods_order_delivery_edit_order_text">#8D92A3</color>
+    <color name="goods_order_delivery_time_text">#FFFFFF</color>
+
+    <color name="goods_order_status_name_text">#000521</color>
+    <color name="goods_order_status_time_text">#8D92A3</color>
+
+    <color name="route_commend_popupwindow_title_text">#000000</color>
+    <color name="route_commend_popupwindow_content_text">#8D92A3</color>
+    <color name="route_commend_popupwindow_people_text">#210000</color>
+    <color name="route_commend_popupwindow_time_text">#842D29</color>
+
+
+
+    <!-- Friend !-->
+    <color name="friend_my_firends_main_box">#FFFFFF</color>
+    <color name="friend_my_firends_main_box_stroke">#ECEBED</color>
+    <color name="friend_my_firends_other_boxes">#842D29</color>
+    <color name="friend_my_firends">#ECEBED</color>
+    <color name="friend_my_firends_text">#1A1A1A</color>
+    <color name="friend_my_firends_join_text">#FBFBFB</color>
+    <color name="friend_my_firends_team_and_personal_text">#1A051D</color>
+    <color name="friend_my_firends_start_text">#FFFFFF</color>
+    <color name="friend_my_firends_hint_text">#1A051D</color>
+    <color name="friend_choose_friends_text">#000000</color>
+    <color name="friend_choose_friends_my_accompany_text">#8D92A3</color>
+    <color name="friend_choose_friends_search_edit">#000000</color>
+    <color name="friend_choose_friends_search_edit_hint">#8D92A3</color>
+    <color name="friend_choose_friends_item_name_text">#000000</color>
+    <color name="friend_choose_friends_item_in_museum_text">#8D92A3</color>
+    <color name="friend_choose_friends_item_accompany_count_text">#310707</color>
+    <color name="friend_choose_friends_item_button_unadd_text">#FFFFFF</color>
+    <color name="friend_choose_friends_item_button_added_text">#000000</color>
+    <color name="friend_choose_friends_item_normal_button">#842D29</color>
+    <color name="friend_choose_friends_item_already_button">#FFFFFF</color>
+    <color name="friend_choose_friends_item_offline_button">#CDCDD7</color>
+
+    <!-- Exhibition !-->
+    <color name="exhibition_inner_collection_lable_tv">#000521</color>
+    <color name="exhibition_inner_collection_position_hint_tv">#000521</color>
+    <color name="exhibition_inner_collection_concrete_position_tv">#842D29</color>
+    <color name="exhibition_inner_collection_change_hint_tv">#8D92A3</color>
+    <color name="exhibition_inner_collector_seekbar_thumb">#55842D29</color>
+    <color name="exhibition_inner_collector_seekbar_style_bg">#F1F3F8</color>
+    <color name="exhibition_inner_collector_seekbar_style_progress">#842D29</color>
+    <color name="exhibition_inner_collection_field_guide_view">#7A7C79</color>
+
+    <!-- RouteCommend !-->
+    <color name="route_commend_info_exhibition_location_name_color">#000521</color>
+    <color name="route_commend_info_exhibition_exhibition_name_color">#8D92A3</color>
+
+    <color name="dialog_route_commend_goods_card_background_color">#FFFFFF</color>
+    <color name="dialog_route_commend_goods_other_text_color">#BDBDBD</color>
+    <color name="dialog_route_commend_goods_name_text_color">#842D29</color>
+    <color name="dialog_route_commend_goods_recommend_text_color">#8D92A3</color>
+    <color name="dialog_route_commend_goods_recommend_goods_text_color">#000000</color>
+
+
+    <color name="route_commend_info_popupwindow_parent_background">#EFEFEF</color>
+    <!-- MyInfo !-->
+
+    <!--Settings-->
+    <color name="settings_colorPrimary">#F7F8FA</color>
+    <color name="settings_colorPrimaryDark">#F7F8FA</color>
+    <color name="settings_switch_track_checked">#842D29</color>
+    <color name="settings_switch_track_unchecked">#08080040</color>
+    <color name="settings_lable_tv">#1A1A1A</color>
+    <color name="settings_item_title_tv">#000521</color>
+    <color name="settings_item_tv">#000521</color>
+    <color name="settings_setted_language_tv">#B8BBC6</color>
+    <color name="settings_logout_btn">#FFFFFF </color>
+
+    <!--MainPage-Drawer-->
+    <color name="mainpage_drawer_username_tv">#000000</color>
+    <color name="mainpage_drawer_user_status_tv">#000000</color>
+    <color name="mainpage_drawer_position_tv">#000000</color>
+    <color name="mainpage_drawer_btn">#FFFFFF</color>
+
+    <!-- guide !-->
+    <color name="guide_image_notsignin_background_color">#99000000</color>
+    <color name="guide_image_notsignin_text_color">#FFFFFF</color>
+
+</resources>

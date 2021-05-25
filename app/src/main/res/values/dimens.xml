@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--StartPage-->
+    <dimen name="startpage_order_tv">20sp</dimen>
+    <dimen name="startpage_recommend_tv">36sp</dimen>
+    <dimen name="startpage_details_tv">24sp</dimen>
+    <dimen name="startpage_index_tv">14sp</dimen>
+
+    <!--Login-->
+    <dimen name="login_to_register_tv">20sp</dimen>
+    <dimen name="login_welcome_tv">40sp</dimen>
+    <dimen name="login_lable_tv">30sp</dimen>
+    <dimen name="login_account_telephone_et">20sp</dimen>
+    <dimen name="login_password_et">20sp</dimen>
+    <dimen name="login_to_forgetpwd_tv">18sp</dimen>
+    <dimen name="login_btn">18sp</dimen>
+
+    <!--Register-->
+    <dimen name="register_to_login_tv">20sp</dimen>
+    <dimen name="register_welcome_tv">40sp</dimen>
+    <dimen name="register_lable_tv">30sp</dimen>
+    <dimen name="register_account_telephone_et">20sp</dimen>
+    <dimen name="register_password_et">20sp</dimen>
+    <dimen name="register_btn">18sp</dimen>
+    <dimen name="register_next_step_tv">18sp</dimen>
+    <dimen name="register_hint_tv">36sp</dimen>
+    <dimen name="register_step_count_tv">16sp</dimen>
+    <dimen name="register_personal_info_tv">18sp</dimen>
+    <dimen name="register_nickname_with_name_with_gender_tv">16sp</dimen>
+    <dimen name="register_nickname_with_name_et">20sp</dimen>
+    <dimen name="register_gender_selected_hint_tv">16sp</dimen>
+    <dimen name="register_position_permissions_tv">18sp</dimen>
+    <dimen name="register_choose_permissions_tv">16sp</dimen>
+    <dimen name="register_permission_checkbox">18sp</dimen>
+    <dimen name="register_input_telephone_tv">16sp</dimen>
+    <dimen name="register_telephone_tv">16sp</dimen>
+    <dimen name="register_area_code_tv">18sp</dimen>
+    <dimen name="register_telephone_et">18sp</dimen>
+    <dimen name="register_assure_telephone_hint_tv">16sp</dimen>
+    <dimen name="register_verify_code_et">30sp</dimen>
+    <dimen name="reigster_assure_telephone_chronometer_tv">16sp</dimen>
+    <dimen name="register_assure_telephone_time_hint_tv">16sp</dimen>
+    <dimen name="register_assure_telephone_send_tv">16sp</dimen>
+
+    <!--ForgetPwd-->
+    <dimen name="forgetpwd_lable_tv">22sp</dimen>
+    <dimen name="forgetpwd_password_tv">16sp</dimen>
+    <dimen name="forgetpwd_password_et">16sp</dimen>
+    <dimen name="forgetpwd_change_pwd_btn">18sp</dimen>
+
+    <!-- MainPage !-->
+    <dimen name="mainpage_activity_marginTop">0dp</dimen>
+    <dimen name="mainpage_fragment_paddingTop">35dp</dimen>
+    <!-- Navigation !-->
+
+    <!-- Goods !-->
+    <dimen name="mainpage_goods_recommend_layout_margin_top">30dp</dimen>
+    <dimen name="mainpage_goods_recommend_layout_margin">20dp</dimen>
+    <dimen name="mainpage_goods_recommend_newlocation_show_margin">10dp</dimen>
+    <dimen name="mainpage_goods_recommend_newlocation_margin">5dp</dimen>
+    <dimen name="mainpage_goods_recommend_recyclerview_margin_top">30dp</dimen>
+    <dimen name="mainpage_goods_recommend_recyclerview_margin_bottom">50dp</dimen>
+    <dimen name="mainpage_goods_recommend_select_height">80dp</dimen>
+    <dimen name="mainpage_goods_recommend_select_margin_bottom">30dp</dimen>
+    <dimen name="mainpage_goods_recommend_recyclerview_constraintlayout_margin_top">10dp</dimen>
+    <dimen name="mainpage_goods_recommend_recyclerview_constraintlayout_margin_bottom">80dp</dimen>
+    <dimen name="mainpage_goods_recommend_recyclerview_constraintlayout_image_height">350dp</dimen>
+    <dimen name="mainpage_goods_recommend_recyclerview_constraintlayout_text_margin_top">20dp</dimen>
+    <dimen name="mainpage_goods_recommend_recyclerview_constraintlayout_text_margin">40dp</dimen>
+    <dimen name="mainpage_goods_recommend_recyclerview_constraintlayout_text_margin_top2">50dp</dimen>
+
+    <dimen name="goods_purchased_item_card_height">250dp</dimen>
+    <dimen name="goods_purchased_item_margin">20dp</dimen>
+    <dimen name="goods_purchased_item_margin_start">10dp</dimen>
+    <dimen name="goods_purchased_item_image_height">200dp</dimen>
+    <dimen name="goods_purchased_item_image_width">150dp</dimen>
+    <dimen name="goods_purchased_item_button_height">30dp</dimen>
+    <dimen name="goods_purchased_item_margin_2">30dp</dimen>
+    <dimen name="goods_purchased_item_name_text_width">110dp</dimen>
+
+    <dimen name="goods_info_return_size">20dp</dimen>
+    <dimen name="goods_info_margin_start">20dp</dimen>
+    <dimen name="goods_info_margin_top">45dp</dimen>
+    <dimen name="goods_info_name_width">150dp</dimen>
+    <dimen name="goods_info_specifications_margin_top">5dp</dimen>
+    <dimen name="goods_info_popupwindow_height">290dp</dimen>
+    <dimen name="goods_info_select_type_margin_top">40dp</dimen>
+    <dimen name="goods_info_button_margin_start">30dp</dimen>
+    <dimen name="goods_info_button_height">55dp</dimen>
+
+    <dimen name="goods_info_detail_detail_item_margin_start">30dp</dimen>
+    <dimen name="goods_info_detail_detail_item_margin_bottom">32dp</dimen>
+    <dimen name="goods_info_detail_detail_item_introduction_margin_top">5dp</dimen>
+    <dimen name="goods_info_detail_detail_item_image_height">200dp</dimen>
+    <dimen name="goods_info_detail_detail_item_image_margin_top">10dp</dimen>
+    <dimen name="goods_info_detail_detail_goods_top_img_height">350dp</dimen>
+    <dimen name="goods_info_detail_detail_card_margin_top">330dp</dimen>
+    <dimen name="goods_info_detail_detail_goods_name_margin_top">20dp</dimen>
+    <dimen name="goods_info_detail_goods_selcet_type_height">50dp</dimen>
+    <dimen name="goods_info_detail_goods_box_select_margin_top">25dp</dimen>
+    <dimen name="goods_info_detail_goods_box_height">35dp</dimen>
+    <dimen name="goods_info_detail_goods_box_width">100dp</dimen>
+
+    <dimen name="goods_order_check_margin">20dp</dimen>
+    <dimen name="goods_order_check_card_background">300dp</dimen>
+    <dimen name="goods_order_check_margin_start">30dp</dimen>
+    <dimen name="goods_order_check_margin_bottom">10dp</dimen>
+    <dimen name="goods_order_check_item_height">130dp</dimen>
+    <dimen name="goods_order_check_item_margin_start">15dp</dimen>
+
+    <dimen name="goods_choose_address_item_card_margin_end">30dp</dimen>
+    <dimen name="goods_choose_address_item_card_margin_bottom">10dp</dimen>
+    <dimen name="goods_choose_address_item_card_height">100dp</dimen>
+    <dimen name="goods_choose_address_item_card_margin_start">20dp</dimen>
+    <dimen name="goods_choose_address_item_card_img_width">20dp</dimen>
+    <dimen name="goods_choose_address_item_card_localaddress_margin_top">25dp</dimen>
+    <dimen name="goods_choose_address_item_card_address_detail_margin_top">5dp</dimen>
+
+    <dimen name="goods_pay_type_card_height">230dp</dimen>
+    <dimen name="goods_pay_type_card_width">150dp</dimen>
+    <dimen name="goods_pay_type_card_margin_top">30dp</dimen>
+    <dimen name="goods_pay_type_card_next_margin_top">20dp</dimen>
+    <dimen name="goods_pay_type_card_text_margin_top">25dp</dimen>
+
+    <dimen name="goods_credit_card_pay_card_margin_bottom">100dp</dimen>
+
+    <dimen name="dialog_goods_infp_pay_success_dialog_height">450dp</dimen>
+    <dimen name="dialog_goods_infp_pay_success_close_img_height">15dp</dimen>
+    <dimen name="dialog_goods_infp_pay_success_margin_top">20dp</dimen>
+    <dimen name="dialog_goods_infp_pay_success_img_margin_top">30dp</dimen>
+    <dimen name="dialog_goods_infp_pay_success_text_margin_top">10dp</dimen>
+
+    <dimen name="goods_order_delivery_layout_margin_top">30dp</dimen>
+    <dimen name="goods_order_delivery_layout_margin_start">40dp</dimen>
+    <dimen name="goods_order_delivery_name_margin_start">10dp</dimen>
+    <dimen name="goods_order_delivery_phone_margin_start">5dp</dimen>
+    <dimen name="goods_order_delivery_map_height">400dp</dimen>
+    <dimen name="goods_order_delivery_time_layout_margin_top">20dp</dimen>
+    <dimen name="goods_order_delivery_time_layout_margin_start">40dp</dimen>
+
+
+    <dimen name="goods_order_delivery_card_margin_top">20dp</dimen>
+    <dimen name="goods_order_delivery_card_margin_start">40dp</dimen>
+    <dimen name="goods_order_delivery_card_background_height">80dp</dimen>
+    <dimen name="goods_order_delivery_card_background_margin_top">30dp</dimen>
+
+    <dimen name="dialog_route_commend_goods_card_background">600dp</dimen>
+    <dimen name="dialog_route_commend_goods_card_margin_start">30dp</dimen>
+    <dimen name="dialog_route_commend_goods_other_text_margin_bottom">20dp</dimen>
+    <dimen name="dialog_route_commend_goods_img_margin_start">5dp</dimen>
+    <dimen name="dialog_route_commend_goods_price_margin_bottom">10dp</dimen>
+
+
+    <dimen name="route_commend_popupwindow_card_background">320dp</dimen>
+    <dimen name="route_commend_popupwindow_commend_goods_margin">20dp</dimen>
+    <dimen name="route_commend_popupwindow_nothing_pack_margin">15dp</dimen>
+    <dimen name="route_commend_popupwindow_commend_goods_margin_top">10dp</dimen>
+    <dimen name="route_commend_popupwindow_nothing_pack_margin_start">40dp</dimen>
+
+
+    <dimen name="mainpage_goods_recommend_layout_collectname_text">40sp</dimen>
+    <dimen name="mainpage_goods_recommend_layout_name_text">18sp</dimen>
+    <dimen name="mainpage_goods_recommend_layout_introduction_text">14sp</dimen>
+    <dimen name="mainpage_goods_recommend_newlocation_show_text">16sp</dimen>
+    <dimen name="mainpage_goods_recommend_newlocation_text">18sp</dimen>
+
+    <dimen name="goods_purchased_item_name_text">18sp</dimen>
+    <dimen name="goods_purchased_item_status_text">13sp</dimen>
+    <dimen name="goods_purchased_item_oldprice_text">18sp</dimen>
+    <dimen name="goods_market_location_text">15sp</dimen>
+    <dimen name="goods_market_notification_text">8sp</dimen>
+    <dimen name="goods_market_title_text">23sp</dimen>
+
+    <dimen name="goods_market_signin_name_text">16sp</dimen>
+    <dimen name="goods_market_signin_introduction_text">12sp</dimen>
+    <dimen name="goods_market_dicount_dicount_text">14sp</dimen>
+    <dimen name="goods_market_dicount_name_text">18sp</dimen>
+    <dimen name="goods_market_dicount_introduction_text">16sp</dimen>
+    <dimen name="goods_market_dicount_remainder_text">12sp</dimen>
+    <dimen name="goods_market_classical_name_text">18sp</dimen>
+
+    <dimen name="goods_info_goods_name_text">50sp</dimen>
+    <dimen name="goods_info_goods_price_text">40sp</dimen>
+    <dimen name="goods_info_goods_weight_text">20sp</dimen>
+    <dimen name="goods_info_select_type_text">18sp</dimen>
+    <dimen name="goods_info_button_text">20sp</dimen>
+
+    <dimen name="goods_info_detail_detail_item_title">16sp</dimen>
+    <dimen name="goods_info_detail_detail_goods_name_text">20sp</dimen>
+    <dimen name="goods_info_detail_detail_goods_production_text">16sp</dimen>
+    <dimen name="goods_info_detail_detail_goods_selcet_type_text">18sp</dimen>
+    <dimen name="goods_info_detail_detail_goods_box_text">16sp</dimen>
+
+    <dimen name="goods_order_check_title_text">35sp</dimen>
+    <dimen name="goods_order_check_price_text">18sp</dimen>
+    <dimen name="goods_order_check_item_price_text">16sp</dimen>
+    <dimen name="goods_order_check_item_num_text">14sp</dimen>
+
+    <dimen name="goods_choose_address_item_locationaddress_text">18sp</dimen>
+    <dimen name="goods_choose_address_item_detail_text">15sp</dimen>
+
+    <dimen name="goods_pay_type_card_pay_text">18sp</dimen>
+
+    <dimen name="dialog_goods_info_pay_success_success_text">20sp</dimen>
+    <dimen name="dialog_goods_info_pay_success_tips_text">18sp</dimen>
+
+    <dimen name="goods_order_delivery_people_name_text">18sp</dimen>
+    <dimen name="goods_order_delivery_order_edit_text">18sp</dimen>
+    <dimen name="goods_order_delivery_card_background_time_text">20sp</dimen>
+
+    <dimen name="goods_order_status_pay_text">20sp</dimen>
+    <dimen name="goods_order_status_pay_time_text">18sp</dimen>
+
+    <dimen name="dialog_route_commend_goods_other_text">16sp</dimen>
+    <dimen name="dialog_route_commend_goods_price_text">23sp</dimen>
+
+    <dimen name="route_commend_popupwindow_commend_nothing_text">18sp</dimen>
+    <dimen name="route_commend_popupwindow_commend_nothing_content_text">16sp</dimen>
+
+
+    <!-- Friend !-->
+    <dimen name="friend_my_firends">30sp</dimen>
+    <dimen name="friend_my_firends_join">14sp</dimen>
+    <dimen name="friend_my_firends_team_and_personal">30sp</dimen>
+    <dimen name="friend_my_firends_start">18sp</dimen>
+    <dimen name="friend_my_firends_hint">18sp</dimen>
+    <dimen name="friend_my_firends_main_radius">8dp</dimen>
+    <dimen name="friend_my_firends_main_stroke_width">1dp</dimen>
+    <dimen name="friend_my_firends_join_radius">4dp</dimen>
+    <dimen name="friend_my_firends_start_radius">20dp</dimen>
+    <dimen name="friend_choose_friends">24sp</dimen>
+    <dimen name="friend_choose_friends_my_accompany">14sp</dimen>
+    <dimen name="friend_choose_friends_search">18sp</dimen>
+    <dimen name="friend_choose_friends_item_name">18sp</dimen>
+    <dimen name="friend_choose_friends_item_in_museum">14sp</dimen>
+    <dimen name="friend_choose_friends_item_accompany_count">14sp</dimen>
+    <dimen name="friend_choose_friends_button_text">14sp</dimen>
+    <dimen name="friend_choose_friends_button_radius">8dp</dimen>
+    <dimen name="friend_choose_friends_item_img_width">91dp</dimen>
+    <dimen name="friend_choose_friends_item_height">81dp</dimen>
+
+
+    <!-- Exhibition !-->
+    <dimen name="exhibition_inner_collection_lable_tv">30sp</dimen>
+    <dimen name="exhibition_inner_collection_position_hint_tv">14sp</dimen>
+    <dimen name="exhibition_inner_collection_concrete_position_tv">18sp</dimen>
+    <dimen name="exhibition_inner_collection_change_hint_tv">14sp</dimen>
+
+    <!-- RouteCommend !-->
+    <dimen name="route_commend_info_exhibition_location_name_text">20sp</dimen>
+    <dimen name="route_commend_info_exhibition_exhibition_name_text">18sp</dimen>
+    <!-- MyInfo !-->
+
+
+    <!--Settings-->
+    <dimen name="settings_lable_tv">30sp</dimen>
+    <dimen name="settings_item_title_tv">16sp</dimen>
+    <dimen name="settings_item_tv">20sp</dimen>
+    <dimen name="settings_setted_language_tv">16sp</dimen>
+    <dimen name="settings_logout_btn">20sp</dimen>
+
+    <!-- guide !-->
+    <dimen name="guide_image_notsignin_text">16sp</dimen>
+    
+    <!--MainPage-Drawer-->
+    <dimen name="mainpage_drawer_username_tv">24sp</dimen>
+    <dimen name="mainpage_drawer_user_status_tv">14sp</dimen>
+    <dimen name="mainpage_drawer_position_tv">14sp</dimen>
+    <dimen name="mainpage_drawer_btn">14sp</dimen>
+
+</resources>

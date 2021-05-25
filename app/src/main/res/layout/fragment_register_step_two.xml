@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".view.register.RegisterStepTwoFragment">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.06" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.94" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.1" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.23" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.29" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.3" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.62" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.74" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.9" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.04" />
+
+        <ImageView
+            android:id="@+id/register_back_img"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:clickable="true"
+            android:src="@mipmap/register_back"
+            app:layout_constraintBottom_toTopOf="@+id/guideline29"
+            app:layout_constraintEnd_toStartOf="@+id/guideline27"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toTopOf="@+id/guideline30" />
+
+        <TextView
+            android:id="@+id/register_next_step_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_next_step_tv"
+            android:textColor="@color/register_next_step_tv"
+            android:textSize="@dimen/register_next_step_tv"
+            app:layout_constraintBottom_toTopOf="@+id/guideline29"
+            app:layout_constraintEnd_toStartOf="@+id/guideline27"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toTopOf="@+id/guideline30"
+            tools:text="下一步" />
+
+        <TextView
+            android:id="@+id/register_hint_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_hint_one_tv"
+            android:textColor="@color/register_hint_tv"
+            android:textSize="@dimen/register_hint_tv"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/guideline31"
+            app:layout_constraintEnd_toStartOf="@+id/guideline27"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toTopOf="@+id/guideline29"
+            tools:text="注册" />
+
+        <TextView
+            android:id="@+id/register_step_count_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_step_one_count_tv"
+            android:textColor="@color/register_step_count_tv"
+            android:textSize="@dimen/register_step_count_tv"
+            app:layout_constraintBottom_toTopOf="@+id/guideline31"
+            app:layout_constraintEnd_toStartOf="@+id/guideline27"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toTopOf="@+id/guideline29"
+            tools:text="第1/3步" />
+
+        <View
+            android:id="@+id/view13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#F8F8F8"
+            app:layout_constraintBottom_toTopOf="@+id/guideline33"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline32" />
+
+        <TextView
+            android:id="@+id/register_personal_info_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_personal_info_tv"
+            android:textColor="@color/register_personal_info_tv"
+            android:textSize="@dimen/register_personal_info_tv"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/guideline33"
+            app:layout_constraintEnd_toStartOf="@+id/guideline27"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toTopOf="@+id/guideline32"
+            tools:text="个人信息" />
+
+        <View
+            android:id="@+id/register_personal_picture"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/register_user_img"
+            app:layout_constraintBottom_toTopOf="@+id/guideline35"
+            app:layout_constraintEnd_toStartOf="@+id/guideline27"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toTopOf="@+id/guideline34" />
+
+        <TextView
+            android:id="@+id/register_nickname_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_nickname_tv"
+            android:textColor="@color/register_nickname_with_name_with_gender_tv"
+            android:textSize="@dimen/register_nickname_with_name_with_gender_tv"
+            app:layout_constraintBottom_toTopOf="@+id/register_nickname_et"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toTopOf="@+id/guideline35"
+            tools:text="用户名" />
+
+        <TextView
+            android:id="@+id/register_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_name_tv"
+            android:textColor="@color/register_nickname_with_name_with_gender_tv"
+            android:textSize="@dimen/register_nickname_with_name_with_gender_tv"
+            app:layout_constraintBottom_toTopOf="@+id/register_name_et"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toTopOf="@+id/guideline36"
+            tools:text="@string/register_name_tv" />
+
+        <TextView
+            android:id="@+id/register_gender_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_gender_tv"
+            android:textColor="@color/register_nickname_with_name_with_gender_tv"
+            android:textSize="@dimen/register_nickname_with_name_with_gender_tv"
+            app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+            app:layout_constraintStart_toStartOf="@+id/radioGroup"
+            app:layout_constraintTop_toTopOf="@+id/guideline37"
+            tools:text="性别" />
+
+        <EditText
+            android:id="@+id/register_nickname_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textColor="@color/register_nickname_with_name_et"
+            android:textSize="@dimen/register_nickname_with_name_et"
+            app:layout_constraintBottom_toTopOf="@+id/view15"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toBottomOf="@+id/register_nickname_tv" />
+
+        <EditText
+            android:id="@+id/register_name_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textColor="@color/register_nickname_with_name_et"
+            android:textSize="@dimen/register_nickname_with_name_et"
+            app:layout_constraintBottom_toTopOf="@+id/view16"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toBottomOf="@+id/register_name_tv" />
+
+        <View
+            android:id="@+id/view15"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#F1F3F8"
+            app:layout_constraintBottom_toTopOf="@+id/guideline36"
+            app:layout_constraintEnd_toStartOf="@+id/guideline27"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toBottomOf="@+id/register_nickname_et" />
+
+        <View
+            android:id="@+id/view16"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#F1F3F8"
+            app:layout_constraintBottom_toTopOf="@+id/guideline37"
+            app:layout_constraintEnd_toStartOf="@+id/guideline27"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toBottomOf="@+id/register_name_et" />
+
+        <View
+            android:id="@+id/view17"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#F1F3F8"
+            app:layout_constraintBottom_toTopOf="@+id/guideline39"
+            app:layout_constraintEnd_toStartOf="@+id/guideline27"
+            app:layout_constraintStart_toStartOf="@+id/guideline24"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/view17"
+            app:layout_constraintStart_toStartOf="@+id/view17"
+            app:layout_constraintTop_toBottomOf="@+id/register_gender_tv">
+
+            <RadioButton
+                android:id="@+id/reigster_male_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableLeft="@drawable/register_male_selector" />
+
+            <RadioButton
+                android:id="@+id/reigster_female_rb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:button="@null"
+                android:checked="true"
+                android:drawableLeft="@drawable/register_female_selector" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/register_selected_gender_hint_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_gender_selected_hint_tv_female"
+            android:textColor="@color/register_selected_gender_hint_tv"
+            android:textSize="@dimen/register_gender_selected_hint_tv"
+            app:layout_constraintBottom_toBottomOf="@+id/radioGroup"
+            app:layout_constraintEnd_toStartOf="@+id/guideline27"
+            app:layout_constraintTop_toTopOf="@+id/radioGroup"
+            tools:text="女" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
